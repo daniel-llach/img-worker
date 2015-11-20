@@ -1,0 +1,34 @@
+{
+  "name": "img-worker",
+  "version": "0.0.1",
+  "description": "A worker for processing images to responsive app and web  ",
+  "main": "apps.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daniel-llach/img-worker.git"
+  },
+  "keywords": [
+    "worker",
+    "img",
+    "image",
+    "responsive",
+    "image",
+    "processing"
+  ],
+  "author": "Daniel LLach Valdivieso",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/daniel-llach/img-worker/issues"
+  },
+  "homepage": "https://github.com/daniel-llach/img-worker#readme",
+  "dependencies": {
+    "color": "^0.10.1",
+    "colors": "^1.1.2",
+    "commander": "^2.9.0",
+    "fs-extra": "^0.26.2",
+    "worker-farm": "^1.3.1"
+  }
+}
