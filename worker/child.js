@@ -1,4 +1,15 @@
+var colors = require('colors');
+
 module.exports = function (inp, callback) {
-  var colors = require('colors');
-  callback(null, 'worker '.gray + inp.green + ' ready ...'.gray);
+  var name = inp.name;
+
+  analyzingImage(inp.file);
+
+  // a new image?
+  function analyzingImage(file){
+    var outp = {};
+    outp.status = 'done';
+    outp.msg = name.gray + ' starting analylizing '.gray + file.green + ' image'.gray;
+    callback(null, outp);
+  }
 }
